@@ -97,6 +97,8 @@ post_install() {
 			fi
 		fi
 	done
+
+  msg "run tokenadmin"
 }
 
 post_upgrade() {
