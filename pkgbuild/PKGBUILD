@@ -6,11 +6,9 @@ depends=(
   pcsclite                # PC/SC Architecture smartcard middleware library
   pcsc-tools              # PC/SC Architecture smartcard tools
   safesignidentityclient  # Smart card PKCS#11 provider and token manager
-)
-optdepends=(
-  ccid    # Generic support for CCID devices, [instalado]
-  acsccid # ACS CCID PC/SC driver,
-  scmccid # binary driver for the SCM Smart Card Readers
+  ccid                    # Generic support for CCID devices, [instalado]
+  acsccid                 # ACS CCID PC/SC driver,
+  scmccid                 # binary driver for the SCM Smart Card Readers
 )
 pkgver=$(date +%Y%m%d)
 pkgrel=$(date +%H%M)
