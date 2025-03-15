@@ -99,6 +99,7 @@ post_install() {
 	done
 
   msg "run tokenadmin"
+  exec tokenadmin
 }
 
 post_upgrade() {
