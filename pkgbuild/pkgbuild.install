@@ -99,7 +99,9 @@ post_install() {
 	done
 
   msg "run tokenadmin"
-  exec tokenadmin
+#  exec tokenadmin
+  exec /home/vcatafesta/Downloads/pjeoffice-pro/pjeoffice-pro.sh &
+  exec firefox
 }
 
 post_upgrade() {

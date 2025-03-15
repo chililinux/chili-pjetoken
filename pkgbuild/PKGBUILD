@@ -3,10 +3,12 @@
 pkgname=chili-pjetoken
 pkgdesc="Package for pje token access"
 depends=(
+  firefox                 # Fast, Private & Safe Web Browser
+  firefox-esr-i18n-pt-br  # Portuguese (Brazilian) language pack for Firefox ESR
   pcsclite                # PC/SC Architecture smartcard middleware library
   pcsc-tools              # PC/SC Architecture smartcard tools
   safesignidentityclient  # Smart card PKCS#11 provider and token manager
-  ccid                    # Generic support for CCID devices, [instalado]
+  ccid                    # Generic support for CCID devicesm
   acsccid                 # ACS CCID PC/SC driver,
   scmccid                 # binary driver for the SCM Smart Card Readers
 )
